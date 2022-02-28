@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffeaa4"
+    android:padding="20dp"
+    tools:context=".Mainactivity2">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAFE HAVEN"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="@font/cantata_one"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        When you need us\n                              We are there...."
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:textStyle="italic"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="40dp"
+        android:layout_marginTop="130dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient4"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SERVICES"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Services We Provide are \nTraditional and Cremation"
+                android:layout_below="@id/t1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:textColor="#685f5f"/>
+
+            <ImageView
+                android:id="@+id/dove"
+                android:layout_width="180dp"
+                android:layout_height="170dp"
+                android:maxHeight="200dp"
+                android:src="@drawable/dove"
+                android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="40dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient4"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LOCATION"
+                    android:textSize="30sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location of Branches"
+                    android:layout_below="@id/t2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#685f5f"/>
+
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_width="180dp"
+                    android:layout_height="170dp"
+                    android:maxHeight="200dp"
+                    android:src="@drawable/pinlocation"
+                    android:layout_alignParentRight="true"/>
+
+
+            </RelativeLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="40dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient4"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTACTS"
+                    android:textSize="30sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact person"
+                    android:layout_below="@id/t3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#685f5f"/>
+
+                <ImageView
+                    android:id="@+id/contact"
+                    android:layout_width="180dp"
+                    android:layout_height="170dp"
+                    android:maxHeight="200dp"
+                    android:src="@drawable/contactperson"
+                    android:layout_alignParentRight="true"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonbg"
+            android:elevation="10dp"
+            android:text="Logout"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck"
+            />
+
+
+        </LinearLayout>
+
+</LinearLayout>

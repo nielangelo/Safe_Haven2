@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Safe-Haven</string>
+    <string name="description">Metal Casket, single top split lid covers, full glass, elegant, interiors, imported corners and handles
+    </string>
+    <string name="bernadescript">Metal Casket,  Single Top (full lid cover), Full Glass, Elegant Interiors, corners and handles
+    </string>
+    <string name="claire">Metal Casket, Single Top (half lid cover), Half Glass, Elegant Interiors, corners and handles
+    </string>
+    <string name="dominique">Wood Casket, Single Top (full lid cover), Full Glass, Elegant Interiors, corners and handles
+    </string>
+    <string name="george">Metal Casket, Single Top (Split Lid Cover), Full Glass, Elegant Interiors, corners and handles
+    </string>
+    <string name="gregory"> Wood Casket, Single Top (Split Lid Cover), Full Glass, Elegant Interiors, corners and handles
+    </string>
+
+    <string name="St.AnneD">Price: 100,000
+        <br>Flowers: Rose and Carnation white\n</br>
+<br>Casket: Solid copper or bronze\n</br>
+<br>Tombstone: Granite black/ with picture\n</br>
+<br>Car: Vintage gold\n</br>
+<br>Free services:\n</br>
+<br>Flowers\n</br>
+<br>Playing cards\n</br>
+<br>Live band\n</br>
+<br>Water\n</br>
+</string>
+    <string name="St.bernadette">Price: 80,000
+        <br>Flowers: Rose whiten\n</br>
+<br>Casket: Solid copper or bronze\n</br>
+<br>Tombstone: Granite white w/o picture\n</br>
+<br>Car: Cadillac\n</br>
+<br>Free services:\n</br>
+<br>Flowers\n</br>
+<br>Playing cards\n</br>
+<br>Live band\n</br>
+<br>Water\n</br>
+</string>
+    <string name="St.claire">Price: 70,000
+        <br>Flower: Carnation white\n</br>
+<br>Casket: Metal\n</br>
+<br>Tombstone: Marble white\n</br>
+<br>Car: Suburban\n</br>
+<br>Free services:\n</br>
+<br>Flowers\n</br>
+<br>Playing cards\n</br>
+
+</string>
+    <string name="St.Dominique">Price: 60,000
+        <br>Flower: Carnation white\n</br>
+<br>Casket: Wood\n</br>
+<br>Tombstone: Marble white\n</br>
+<br>Car: Starex\n</br>
+<br>Free services:\n</br>
+<br>Water\n</br>
+<br>Playing cards\n</br>
+
+
+
+
+
+
+</string>
+    <string name="St.George">Price: 50,000
+        <br>Flower: Carnation white\n</br>
+<br>Casket: Metal\n</br>
+<br>Tombstone: Marble white\n</br>
+<br>Car: Starex\n</br>
+<br>Free services:\n</br>
+<br>Water\n</br>
+<br>Playing cards\n</br>
+
+</string>
+    <string name="St.Gregory">Price: 40,000
+        <br>Flower: Carnation white\n</br>
+<br>Casket: Metal\n</br>
+<br>Tombstone: Marble white\n</br>
+<br>Car: Starex\n</br>
+<br>Free services:\n</br>
+<br>Water\n</br>
+<br>Playing cards\n</br>
+
+
+</string>
+    <string name="service_text">Service</string>
+    <string name="location_text">Location</string>
+    <string name="contact_text">Contact</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

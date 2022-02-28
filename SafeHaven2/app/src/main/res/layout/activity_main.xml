@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffeaa4"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/dove" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SERVICES"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#df03082b"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"/>
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/cv1"
+            android:layout_width="390dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+             android:background="@drawable/gradient4"
+             android:elevation="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="0dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    // Insert Image here
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="150dp"
+                        android:layout_height="140dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/anne"/>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    // Item title
+
+                    <TextView
+                        android:id="@+id/tvItemName1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="1dp"
+                        android:paddingRight="1dp"
+                        android:paddingBottom="2dp"
+                        android:text="St. Anne"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    // Item Description
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="10dp"
+                        android:lineHeight="17dp"
+                        android:text="@string/description"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/cv2"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/gradient4"
+                android:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        // Insert Image here
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/bernadette"/>
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        // Item title
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="1dp"
+                            android:paddingRight="1dp"
+                            android:paddingBottom="2dp"
+                            android:text="St. Bernadette"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        // Item Description
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="10dp"
+                            android:lineHeight="17dp"
+                            android:text="@string/bernadescript"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/cv3"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/gradient4"
+                android:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="390dp"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        // Insert Image here
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/claire" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        // Item title
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="1dp"
+                            android:paddingRight="1dp"
+                            android:paddingBottom="2dp"
+                            android:text="St. Claire"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        // Item Description
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="10dp"
+                            android:lineHeight="17dp"
+                            android:text="@string/claire"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/cv4"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/gradient4"
+                android:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="390dp"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        // Insert Image here
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/domique"/>
+
+
+
+                        // Button
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        // Item title
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="1dp"
+                            android:paddingRight="1dp"
+                            android:paddingBottom="2dp"
+                            android:text="St. Dominique"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        // Item Description
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="10dp"
+                            android:lineHeight="17dp"
+                            android:text="@string/dominique"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/cv5"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/gradient4"
+                android:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        // Insert Image here
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/george"/>
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        // Item title
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="1dp"
+                            android:paddingRight="1dp"
+                            android:paddingBottom="2dp"
+                            android:text="St.George"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        // Item Description
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="10dp"
+                            android:lineHeight="17dp"
+                            android:text="@string/george"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/cv6"
+                android:layout_width="390dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/gradient4"
+                android:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="vertical">
+
+                        // Insert Image here
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/gregory"/>
+
+
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        // Item title
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="1dp"
+                            android:paddingRight="1dp"
+                            android:paddingBottom="2dp"
+                            android:text="St.Gregory"
+                            android:textColor="@color/black"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        // Item Description
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="10dp"
+                            android:lineHeight="17dp"
+                            android:text="@string/gregory"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>>
+
+    </ScrollView>
+
+</LinearLayout>
